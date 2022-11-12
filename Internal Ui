@@ -307,7 +307,7 @@ local function WKKHW_fake_script() -- InternalUi.LocalScript
 			Script.TextColor3 = Color3.fromRGB(t(RGB[1]), t(RGB[2]), t(RGB[3]))
 		elseif string.find(Script.Text, "--//Hub.BackgroundImage = ") then
 			local ID = string.gsub(Script.Text, "--//Hub.BackgroundImage = ", "")
-			bgImage.Image = "rbxassetid://"..ID
+			bgImage.Image = "rbxthumb://type=Asset&w=768&h=432&id="..ID
 		else
 			Execute(Script.Text)
 		end
