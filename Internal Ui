@@ -84,17 +84,17 @@ UICorner.CornerRadius = UDim.new(0.0350000001, 0)
 UICorner.Parent = Options
 
 Credits.Name = "Credits"
-Credits.Parent = Options
+Credits.Parent = UI
 Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
-Credits.Position = UDim2.new(0.0762711838, 0, 0.854271352, 0)
-Credits.Size = UDim2.new(0.847457647, 0, 0.100502513, 0)
+Credits.Position = UDim2.new(0.707277775, 0, 0.015000008, 0)
+Credits.Size = UDim2.new(0.260646105, 0, 0.0744234994, 0)
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Made by Desturxbarrurte"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
-Credits.TextTransparency = 0.600
+Credits.TextTransparency = 0.850
 Credits.TextWrapped = true
 
 Confs.Name = "Confs"
