@@ -674,6 +674,7 @@ coroutine.wrap(function()
 		V3Bool.Check.BackgroundColor3 = v["CheckBackgroundColor"]
 		V3Bool.Check.Circle.ImageColor3 = v["CheckCircleColor"]
 		ScriptList.BackgroundColor3 = v["BackgroundColor"]
+		old.BackgroundColor3 = v["BackgroundColor"]
 		TextColor = v["ScriptTextColor"]
 		for i, b in ButtonsLeft:GetChildren() do
 			if b:IsA("TextButton") then
@@ -846,7 +847,8 @@ coroutine.wrap(function()
 
 			ChangeTheme("V3")
 		end
-
+		
+		Lines.TextSize = tonumber(Decoded["TextSize"])
 		SBH.ScriptBox.TextSize = tonumber(Decoded["TextSize"])
 		SBSize.Value.Text = tostring(Decoded["TextSize"])
 	end)
